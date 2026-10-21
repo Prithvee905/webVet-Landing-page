@@ -59,7 +59,7 @@ export default function Hero() {
         <dl className="mx-auto mt-12 grid max-w-2xl gap-3 text-left sm:grid-cols-2">
           <div className="lift rounded-xl border border-line bg-surface/90 p-4">
             <dt className="text-xs uppercase tracking-widest text-muted">Clinic plan</dt>
-            <dd className="mt-1 text-fg"><span className="text-2xl font-semibold">₹4,999</span>/year · 24/7 support</dd>
+            <dd className="mt-1 text-fg">From <span className="text-2xl font-semibold">₹4,999</span>/year · 24/7 support</dd>
           </div>
           <div className="lift rounded-xl border border-emerald-400/30 bg-surface/90 p-4">
             <dt className="text-xs uppercase tracking-widest text-brand">Hospital / Enterprise</dt>
