@@ -41,7 +41,8 @@ export default function Hero() {
       <div className="relative mx-auto max-w-4xl px-4 text-center sm:px-6">
         <p className="fade-in mb-5 text-sm font-medium uppercase tracking-widest text-brand">Veterinary clinic &amp; hospital software · India</p>
         <h1 className="fade-in text-balance text-4xl font-semibold tracking-tight text-fg sm:text-6xl">
-          Only the workflows your <Rotator /> actually uses.
+          <span className="block">Only the workflows</span>
+          <span className="block">your <Rotator /> actually uses.</span>
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-fg">
           Most veterinary software is packed with features you never open, and still misses the one you need. VetOS is built around how your clinic works, with your branding, at a price that doesn&rsquo;t keep climbing.
