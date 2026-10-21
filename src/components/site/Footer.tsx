@@ -37,7 +37,6 @@ export default function Footer() {
         <nav aria-label="Resources">
           <h2 className="mb-3 text-sm font-medium text-fg">Resources</h2>
           <ul className="space-y-2">
-            <li><a className={link} href={site.appUrl}>Sign in to VetOS</a></li>
             <li><Link className={link} href="/docs">Documentation</Link></li>
             <li><Link className={link} href="/privacy">Privacy Policy</Link></li>
             <li><Link className={link} href="/terms">Terms of Service</Link></li>

@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { Menu, Moon, Sun, X } from "lucide-react";
-import { site } from "@/config/site";
 import { useTheme } from "@/components/ThemeProvider";
 import { useBooking } from "./Booking";
 
@@ -57,7 +56,6 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-2">
-          <a href={site.appUrl} className="hidden rounded-lg px-3 py-2 text-sm font-medium text-soft transition-colors hover:text-fg sm:inline-block">Sign In</a>
           <button
             type="button"
             onClick={() => openBooking("clinic")}
@@ -94,7 +92,6 @@ export default function Header() {
                 <a href={l.href} onClick={() => setOpen(false)} className="block rounded-lg px-3 py-3 text-base text-fg hover:bg-hover">{l.label}</a>
               </li>
             ))}
-            <li><a href={site.appUrl} className="block rounded-lg px-3 py-3 text-base text-fg hover:bg-hover">Sign In</a></li>
           </ul>
         </nav>
       )}

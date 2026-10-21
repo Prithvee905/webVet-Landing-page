@@ -7,7 +7,6 @@
 export const site = {
   name: "VetOS",
   url: "https://vetosclinic.com",
-  appUrl: "https://app.vetosclinic.com",
   supportEmail: "motivebuilders@gmail.com",
   privacyEmail: "motivebuilders@gmail.com",
   /**
