@@ -27,7 +27,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://vetos.in"),
+  metadataBase: new URL("https://vetosclinic.com"),
   title: "VetOS | Veterinary software that works the way your clinic does",
   description:
     "Veterinary clinic and hospital management software for India. Start with an affordable clinic plan from ₹4,999/year, or build a customized, white-label solution for your hospital.",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     title: "VetOS | Your clinic. Your workflow. Your software.",
     description:
       "Patient records, consultations, prescriptions and billing, with clinic-specific branding and managed setup for veterinary hospitals.",
-    url: "https://vetos.in",
+    url: "https://vetosclinic.com",
     siteName: "VetOS",
     locale: "en_IN",
     type: "website",
