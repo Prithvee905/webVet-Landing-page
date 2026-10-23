@@ -106,9 +106,6 @@ export default function TrialPage() {
                 <Activity className="w-4 h-4 stroke-[2.5]" />
               </div>
               <span className="text-xl font-bold tracking-tight">VetOS</span>
-              <span className="text-[10px] uppercase font-semibold px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-800 dark:text-emerald-400 border border-emerald-500/20">
-                Sandbox
-              </span>
             </div>
 
             <div>
@@ -116,7 +113,7 @@ export default function TrialPage() {
                 Start Your 7-Day Free Clinic Trial
               </h1>
               <p className="text-sm text-slate-600 dark:text-slate-400 mt-2 leading-relaxed">
-                Test drive VetOS in an isolated sandbox environment configured for your practice workflows.
+                Try VetOS for 7 days. Tell us about your practice, and the VetOS team will set up your trial and contact you.
               </p>
             </div>
 
@@ -125,27 +122,27 @@ export default function TrialPage() {
                 <div className="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 flex items-center justify-center shrink-0 mt-0.5">
                   <Check className="w-3.5 h-3.5 stroke-[2.5]" />
                 </div>
-                <span>Full access to SOAP consultation templates & dosage formulas</span>
+                <span>SOAP notes with reusable templates</span>
               </div>
               <div className="flex items-start gap-3 text-xs text-slate-700 dark:text-slate-300">
                 <div className="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 flex items-center justify-center shrink-0 mt-0.5">
                   <Check className="w-3.5 h-3.5 stroke-[2.5]" />
                 </div>
-                <span>Print-ready prescriptions and invoices</span>
+                <span>Prescriptions and GST-ready invoices</span>
               </div>
               <div className="flex items-start gap-3 text-xs text-slate-700 dark:text-slate-300">
                 <div className="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 flex items-center justify-center shrink-0 mt-0.5">
                   <Check className="w-3.5 h-3.5 stroke-[2.5]" />
                 </div>
-                <span>No credit card required • Zero commitment</span>
+                <span>No credit card required</span>
               </div>
             </div>
 
             <div className="p-4 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs text-slate-600 dark:text-slate-400 shadow-sm">
               <span className="text-slate-900 dark:text-slate-200 font-semibold block mb-1">
-                Pricing Baseline After Trial:
+                After the trial:
               </span>
-              Clinic Plan starts at <strong className="text-emerald-600 dark:text-emerald-400">₹4,999/year</strong> (~₹13.70/day). You can cancel at any time during the trial.
+              The Clinic plan starts at <strong className="text-emerald-600 dark:text-emerald-400">₹4,999/year</strong> (about ₹13.70/day), with 24/7 support.
             </div>
           </div>
 
@@ -322,7 +319,7 @@ export default function TrialPage() {
                       className="mt-1 w-4 h-4 rounded border-slate-300 dark:border-slate-700 text-emerald-500 focus:ring-emerald-500"
                     />
                     <span className="text-xs text-slate-600 dark:text-slate-400">
-                      I agree to the trial terms of use and acknowledge that tenant authentication credentials will be verified during clinic onboarding.
+                      I agree to the Terms of Service and Privacy Policy.
                     </span>
                   </label>
                   {errors.terms && (
