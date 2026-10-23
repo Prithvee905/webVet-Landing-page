@@ -20,10 +20,10 @@ export default function Footer() {
         <nav aria-label="Product">
           <h2 className="mb-3 text-sm font-medium text-fg">Product</h2>
           <ul className="space-y-2">
-            <li><a className={link} href="#product">Product tour</a></li>
-            <li><a className={link} href="#features">Features</a></li>
-            <li><a className={link} href="#customization">Customization</a></li>
-            <li><a className={link} href="#pricing">Clinic pricing</a></li>
+            <li><Link className={link} href="/#product">Product tour</Link></li>
+            <li><Link className={link} href="/#features">Features</Link></li>
+            <li><Link className={link} href="/#customization">Customization</Link></li>
+            <li><Link className={link} href="/#pricing">Clinic pricing</Link></li>
           </ul>
         </nav>
         <nav aria-label="Contact">

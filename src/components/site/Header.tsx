@@ -7,11 +7,11 @@ import { useTheme } from "@/components/ThemeProvider";
 import { useBooking } from "./Booking";
 
 export const navLinks = [
-  { label: "Product", href: "#preview" },
-  { label: "Customization", href: "#customization" },
-  { label: "How It Works", href: "#how-it-works" },
-  { label: "Pricing", href: "#pricing" },
-  { label: "FAQ", href: "#faq" },
+  { label: "Product", href: "/#preview" },
+  { label: "Customization", href: "/#customization" },
+  { label: "How It Works", href: "/#how-it-works" },
+  { label: "Pricing", href: "/#pricing" },
+  { label: "FAQ", href: "/#faq" },
 ];
 
 export function Logo() {
