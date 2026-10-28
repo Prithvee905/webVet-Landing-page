@@ -23,7 +23,7 @@ export default function Footer() {
             <li><Link className={link} href="/#product">Product tour</Link></li>
             <li><Link className={link} href="/#features">Features</Link></li>
             <li><Link className={link} href="/#customization">Customization</Link></li>
-            <li><Link className={link} href="/#pricing">Clinic pricing</Link></li>
+            <li><Link className={link} href="/#pricing">Pricing</Link></li>
           </ul>
         </nav>
         <nav aria-label="Contact">

@@ -16,7 +16,7 @@ export default function ManagedModel() {
   return (
     <Section
       id="how-it-works"
-      eyebrow="Hospital / Enterprise"
+      eyebrow="Enterprise"
       title="A managed model: you run the clinic, we run the technology"
       intro="For hospitals and larger practices, VetOS is delivered as a customized solution rather than a one-size-fits-all subscription."
     >

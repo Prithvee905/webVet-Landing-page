@@ -22,15 +22,15 @@ export default function TermsPage() {
         },
         {
           title: "Seven-day free trial",
-          body: "The seven-day trial lets a practice try the Clinic plan without payment. The VetOS team sets up your trial after you request it, and contacts you using the details you provided.",
+          body: "The seven-day trial lets a practice try the Pro plan without payment. The VetOS team sets up your trial after you request it, and contacts you using the details you provided.",
         },
         {
           title: "Software only",
           body: "VetOS is software. Printers and other hardware are not supplied. Charges from third parties, such as Meta's WhatsApp messaging charges, are billed by those providers and are not part of the VetOS price.",
         },
         {
-          title: "Hospital / Enterprise packages",
-          body: "Customization, hosting, integrations and ongoing support for Hospital / Enterprise customers are set out in the agreement for that package.",
+          title: "Enterprise packages",
+          body: "Customization, hosting, integrations and ongoing support for Enterprise customers are set out in the agreement for that package.",
         },
       ]}
     />

@@ -37,7 +37,7 @@ export default function Pricing() {
     >
       <div className="mx-auto grid max-w-5xl gap-6 lg:grid-cols-2">
         <article className="lift flex flex-col rounded-2xl border border-line bg-surface p-8" aria-labelledby="plan-clinic">
-          <h3 id="plan-clinic" className="text-sm font-medium uppercase tracking-widest text-muted">Clinic</h3>
+          <h3 id="plan-clinic" className="text-sm font-medium uppercase tracking-widest text-muted">Pro</h3>
           <p className="mt-4 text-sm text-muted">Starts at</p>
           <p className="text-5xl font-semibold tracking-tight text-fg">{inr(pricing.clinic.from)}<span className="text-lg font-normal text-muted">/year</span></p>
           <p className="mt-1 text-sm text-muted">Approximately ₹{pricing.clinic.perDay}/day · 24/7 support</p>
@@ -52,7 +52,7 @@ export default function Pricing() {
         </article>
 
         <article className="lift flex flex-col rounded-2xl border border-emerald-400/40 bg-gradient-to-b from-emerald-500/10 to-surface p-8" aria-labelledby="plan-ent">
-          <h3 id="plan-ent" className="text-sm font-medium uppercase tracking-widest text-brand">Hospital / Enterprise</h3>
+          <h3 id="plan-ent" className="text-sm font-medium uppercase tracking-widest text-brand">Enterprise</h3>
           <p className="mt-4 text-sm text-muted">Starts at</p>
           <p className="text-5xl font-semibold tracking-tight text-fg">{inr(pricing.enterprise.from)}</p>
           <p className="mt-1 text-sm text-muted">Custom quotation based on your requirements</p>
@@ -62,7 +62,7 @@ export default function Pricing() {
           </ul>
           <div className="mt-8 flex flex-col gap-2 sm:flex-row">
             <button type="button" onClick={() => openBooking("hospital")} className="flex-1 rounded-xl bg-emerald-400 px-4 py-3 text-sm font-semibold text-slate-950 hover:bg-emerald-300">Discuss Your Requirements</button>
-            <button type="button" onClick={() => openBooking("hospital")} className="flex-1 rounded-xl border border-line2 px-4 py-3 text-sm font-semibold text-fg hover:bg-hover">Book a Hospital Demo</button>
+            <button type="button" onClick={() => openBooking("hospital")} className="flex-1 rounded-xl border border-line2 px-4 py-3 text-sm font-semibold text-fg hover:bg-hover">Book an Enterprise Demo</button>
           </div>
         </article>
       </div>

@@ -110,7 +110,7 @@ export default function TrialPage() {
 
             <div>
               <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight">
-                Start Your 7-Day Free Clinic Trial
+                Start Your 7-Day Free Trial
               </h1>
               <p className="text-sm text-slate-600 dark:text-slate-400 mt-2 leading-relaxed">
                 Try VetOS for 7 days. Tell us about your practice, and the VetOS team will set up your trial and contact you.
@@ -142,7 +142,7 @@ export default function TrialPage() {
               <span className="text-slate-900 dark:text-slate-200 font-semibold block mb-1">
                 After the trial:
               </span>
-              The Clinic plan starts at <strong className="text-emerald-600 dark:text-emerald-400">₹4,999/year</strong> (about ₹13.70/day), with 24/7 support.
+              The Pro plan starts at <strong className="text-emerald-600 dark:text-emerald-400">₹4,999/year</strong> (about ₹13.70/day), with 24/7 support.
             </div>
           </div>
 

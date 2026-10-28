@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://vetosclinic.com"),
   title: "VetOS | Veterinary software that works the way your clinic does",
   description:
-    "Veterinary clinic and hospital management software for India. Start with an affordable clinic plan from ₹4,999/year, or build a customized, white-label solution for your hospital.",
+    "Veterinary clinic and hospital management software for India. Start with an affordable Pro plan from ₹4,999/year, or an Enterprise white-label solution for your hospital.",
   keywords: [
     "veterinary software india",
     "vet practice management software",

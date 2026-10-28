@@ -94,7 +94,7 @@ export default function FeaturePicker() {
                   {chosen.length === 0 ? "Pick a few tools to see your workspace take shape." : "A cleaner workspace: your team sees these screens and nothing else."}
                 </p>
                 {chosen.some((m) => m.planned) && <p className="mt-2 text-xs text-warn">Tools marked Planned are not available yet.</p>}
-                {hasCustom && <p className="mt-2 text-xs text-info">Custom requirements are quoted separately under the Hospital / Enterprise offering.</p>}
+                {hasCustom && <p className="mt-2 text-xs text-info">Custom requirements are quoted separately under the Enterprise plan.</p>}
               </div>
               <button type="button" onClick={() => openBooking(hasCustom ? "hospital" : "clinic")} className="mt-6 self-start rounded-xl bg-emerald-400 px-5 py-2.5 text-sm font-semibold text-slate-950 transition-colors hover:bg-emerald-300">
                 {hasCustom ? "Discuss your custom needs" : "Book a demo with this setup"}

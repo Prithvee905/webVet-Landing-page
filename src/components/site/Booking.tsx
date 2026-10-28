@@ -67,7 +67,7 @@ function BookingForm({ initialKind, onDone }: { initialKind: BookingKind; onDone
 
   const summary = {
     Name: v.org, Contact: v.person, Email: v.email, Phone: v.phone,
-    Type: v.kind === "hospital" ? "Hospital / Enterprise" : "Clinic",
+    Type: v.kind === "hospital" ? "Enterprise" : "Clinic",
     "Preferred slot": `${v.date} ${v.time} IST`, Requirements: v.notes,
   };
 
