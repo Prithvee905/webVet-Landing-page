@@ -5,7 +5,7 @@ import Section from "./Section";
 const points = [
   { Icon: Scissors, title: "Only what you use", body: "No wall of modules to wade through. Your screens carry the features your team works with every day, nothing else." },
   { Icon: Puzzle, title: "What you're missing, built", body: "Need something your current software never offered? Hospitals can have custom functionality built for an additional agreed fee." },
-  { Icon: Wallet, title: "A price you can plan around", body: "Pro: from ₹4,999 a year with 24/7 support. Enterprise: from ₹34,999 on a quotation. Extra costs are written down up front, not discovered later." },
+  { Icon: Wallet, title: "A price you can plan around", body: "Basic: from ₹4,999 a year with 24/7 support. Enterprise: from ₹34,999 on a quotation. Extra costs are written down up front, not discovered later." },
   { Icon: Paintbrush, title: "Your name on your paperwork", body: "Invoices, prescriptions and customer messages carry your clinic's branding, and WhatsApp can run from your own number once configured." },
 ];
 

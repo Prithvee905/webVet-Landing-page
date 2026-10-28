@@ -22,7 +22,7 @@ export default function TermsPage() {
         },
         {
           title: "Seven-day free trial",
-          body: "The seven-day trial lets a practice try the Pro plan without payment. The VetOS team sets up your trial after you request it, and contacts you using the details you provided.",
+          body: "The seven-day trial lets a practice try the Basic plan without payment. The VetOS team sets up your trial after you request it, and contacts you using the details you provided.",
         },
         {
           title: "Software only",

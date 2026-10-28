@@ -142,7 +142,7 @@ export default function TrialPage() {
               <span className="text-slate-900 dark:text-slate-200 font-semibold block mb-1">
                 After the trial:
               </span>
-              The Pro plan starts at <strong className="text-emerald-600 dark:text-emerald-400">₹4,999/year</strong> (about ₹13.70/day), with 24/7 support.
+              The Basic plan starts at <strong className="text-emerald-600 dark:text-emerald-400">₹4,999/year</strong> (about ₹13.70/day), with 24/7 support.
             </div>
           </div>
 

@@ -37,7 +37,7 @@ export default function Pricing() {
     >
       <div className="mx-auto grid max-w-5xl gap-6 lg:grid-cols-2">
         <article className="lift flex flex-col rounded-2xl border border-line bg-surface p-8" aria-labelledby="plan-clinic">
-          <h3 id="plan-clinic" className="text-sm font-medium uppercase tracking-widest text-muted">Pro</h3>
+          <h3 id="plan-clinic" className="text-sm font-medium uppercase tracking-widest text-muted">Basic</h3>
           <p className="mt-4 text-sm text-muted">Starts at</p>
           <p className="text-5xl font-semibold tracking-tight text-fg">{inr(pricing.clinic.from)}<span className="text-lg font-normal text-muted">/year</span></p>
           <p className="mt-1 text-sm text-muted">Approximately ₹{pricing.clinic.perDay}/day · 24/7 support</p>
