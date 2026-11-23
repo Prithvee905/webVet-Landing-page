@@ -7,8 +7,8 @@
 export const site = {
   name: "VetOS",
   url: "https://vetosclinic.com",
-  supportEmail: "motivebuilders@gmail.com",
-  privacyEmail: "motivebuilders@gmail.com",
+  supportEmail: "admin@vetosclinic.com",
+  privacyEmail: "admin@vetosclinic.com",
   /**
    * Lead capture endpoint (demo / trial / enterprise requests). When unset, forms
    * validate locally and show an honest "integration pending" state with an email

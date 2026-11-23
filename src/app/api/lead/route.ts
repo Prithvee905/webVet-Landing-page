@@ -64,7 +64,7 @@ export async function POST(request: Request) {
   try {
     await transport.sendMail({
       from: `VetOS website <${SMTP_USER}>`,
-      to: LEAD_TO_EMAIL || "motivebuilders@gmail.com",
+      to: LEAD_TO_EMAIL || "admin@vetosclinic.com",
       replyTo: email,
       subject: `New VetOS ${kind === "trial" ? "trial request" : "demo booking"}: ${name}`,
       text: rows.map(([k, v]) => `${k}: ${v}`).join("\n"),
